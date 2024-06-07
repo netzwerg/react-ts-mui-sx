@@ -7,12 +7,8 @@ const sxRoot: SxProps<Theme> = {
   placeItems: 'center',
 }
 
-function App() {
-  return (
-    <Box sx={sxRoot}>
-      <Typography>{'Hello World'}</Typography>
-    </Box>
-  )
-}
-
-export default App
+export const App = () => (
+  <Box sx={sxRoot}>
+    <Typography>{'Hello World'}</Typography>
+  </Box>
+)
